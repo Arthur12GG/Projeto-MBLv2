@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte01: verdana, geneva, tahoma, sans-serif;
+    --fonte02:'passione', cursive;
+    --fonte03:'Sriracha', cursive;
+}
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte01);
+}
+
+body {
+    background-color: rgb(56, 54, 54);
+}
+
+p {
+    font-family: var(--fonte02);
+    font-size: 1.3em;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, black, rgb(56, 54, 54));
+    color: white;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 4vw;
+    color: rgb(157, 0, 255);
+    font-family: var(--fonte02)
+}
+
+header > p {
+    font-size: 2.2vw;
+    font-family: var(--fonte03);
+    padding-top: 20px;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte03);
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+header > img {
+    max-width: 35vw;
+
+}
+
+main {
+    text-align: center;
+    color: white;
+}
+main > h1, h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 10px 8px 9px rgba(0, 0, 0, 0.642);
+}
+
+section {
+    color: white;
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+section > p {
+    font-family: var(--fonte02);
+    display: inline-block;
+    max-width: 50vw;
+    font-size: 1.3em;
+
+}
+
+section.participantes > p{
+    padding: 50px;
+
+}
+ul {
+    text-align: center;
+    background-color: rgba(81, 80, 79, 0.282);
+    border-radius: 70px;
+    columns: 2;
+}
